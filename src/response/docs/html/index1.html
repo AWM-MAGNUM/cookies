@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WEBSERV</title>
+	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA9QcnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAABAREQEAAAAREBERAREAAREBEREQERABEQERERAREAAAABAAABAAEREBEREQEREREQERERARERERAREREBEREREBEREQEREAAAAAAAAAABERAREREBEQAREBEREQERAAERAREQERAAAAEBEREQAAAAAAARAAAAD+fwAA9C8AAMQjAACIEQAAiBEAAP33AAAIEAAACBAAAAgQAAAIEAAA//8AAAgRAACIEQAAxCMAAPQPAAD+fwAA" rel="icon" type="image/x-icon">
+  <style>
+    body {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+		background-color: #111;
+		color: rgb(218, 218, 218);
+		margin: 0;
+	}
+	img {
+		padding: 20px;
+		width: 150px;
+		height: 150px;
+  	}
+  </style>
+</head>
+<body>
+
+  <h1>Nouhaila</h1>
+  <img src="/img/nerrakeb.jpg">
+
+  <form action="upload.php" method="post">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+  </form>
+
+</body>
+</html>
